@@ -6,7 +6,7 @@ import logo from '../Components/Chiriku-logo.png'
 function Sidebar() {
     return (
         <>
-            <div className="sidebar-list text-white w-44 z-40 fixed h-full grid justify-items-center mb-4 shadow-2xl">
+            <div className="sidebar-list side-bar text-white w-44 z-40 fixed h-full grid justify-items-center mb-4 shadow-2xl">
                 <div className='mt-3 mb-2 grid-flow-row-dense'>
                     <a href='/'>
                 <img className="rounded-full h-28 w-28 mx-auto" src={logo} alt=""/>
