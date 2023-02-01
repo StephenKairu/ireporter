@@ -30,14 +30,18 @@ const Signupform = ({ toggleForm }) => {
     submitToAPI(formData);
 
 
-//     if (!e.target.username.value || !e.target.email.value || !e.target.password.value ) 
-//     // if (!data)
-//     {
-//    toast.error("Please enter a valid username, email, and password.", {
-//      position: "top-center",
-//    });
-//    // return;
-//  }
+    if (!e.target.username.value || !e.target.email.value || !e.target.password.value || !e.target.avatar.files[0] ) 
+    // if (!e.target.avatar.files[0])
+    {
+   toast.error("Please enter a valid username, email, and password.", {
+     position: "top-center",
+   });
+   // return;
+ } else {
+  toast.success("Signup Successfull!", {
+    position: "top-center",
+  });
+ }
 
   //   function submitToAPI(formData) {
   //     fetch("http://localhost:3000/signup", {

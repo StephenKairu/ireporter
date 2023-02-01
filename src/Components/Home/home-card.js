@@ -16,10 +16,10 @@ function HomeCard(props) {
                             <div classname="home-div">
                                <img src={reports.image_url} alt="avatar" className="home-image"/> 
                             </div>
-                            <div className="home-content">
-                            <h3>{reports.title}</h3>
-                        <p>{reports.message}</p>
-                        <p>{reports.report_status}</p>
+                            <div className="home-content ">
+                                <h3>{reports.title}</h3>
+                                <p>{reports.message}</p>
+                                <p>{reports.report_status}</p>
                             </div>
 
                         </div>

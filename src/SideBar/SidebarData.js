@@ -1,13 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouseChimney, faRightFromBracket, faPhoneFlip, faLocationDot, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faHouseChimney, faRightFromBracket, faPhoneFlip, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faFlag } from '@fortawesome/free-regular-svg-icons';
 
 
 export const SidebarData = [
   {
     title: "Home",
-    path: "/home",
+    path: "/",
     icon: <FontAwesomeIcon icon={faHouseChimney} />,
   },
   {
@@ -23,9 +24,9 @@ export const SidebarData = [
   },
 
   {
-    title: "Maps",
-    path: "/map",
-    icon: <FontAwesomeIcon icon={faLocationDot} />,
+    title: "Reports",
+    path: "/home",
+    icon: <FontAwesomeIcon icon={faFlag} />,
   },
   {
     title: "Contact Us",

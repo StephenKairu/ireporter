@@ -48,7 +48,7 @@ function Home(){
             <div className="ml-20">
             <input className="w-96 text-green-800 font-bold" value={search} onChange={handleChange}
         type="text"
-        placeholder="filter"
+        placeholder="Search"
       />
       <div>
       <div className="home-card ml-20">
@@ -58,10 +58,10 @@ function Home(){
   {data.sort((a,b) => a.id < b.id ? 1 : -1).map((reports)=>( 
           
           <div key={reports.id} className='card-home' onClick={()=>{ setIdentity(reports.id)}}>
-              <div className='home-div'>
+              {/* <div className='home-div'>
                   <img src={reports.report_image} className="w-30 h-24" alt="avatar"/>
-              </div>
-              <div className="home-content">
+              </div> */}
+              <div className="home-content p-3">
                   <h2>{reports.report_title}</h2>
                   <p>{reports.report_message}</p>
               </div>
@@ -72,15 +72,15 @@ function Home(){
   </div>
   <div>
   <div className="home-row1">
-      <div>
+    <div>
       <div>
           <img src={image} alt="image" className="home-image1" />
       </div>
       <div>
-      <h4>{name}</h4>
+      <h4 className="p-2 text-xl font-bold">{name}</h4>
       <p>{message}</p>
       </div>
-      </div>
+    </div>
 
 
   </div>
