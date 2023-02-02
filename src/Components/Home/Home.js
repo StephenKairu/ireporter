@@ -62,7 +62,7 @@ function Home(){
                   <img src={reports.report_image} className="w-30 h-24" alt="avatar"/>
               </div> */}
               <div className="home-content p-3">
-                  <h2>{reports.report_title}</h2>
+                  <h3 className="font-bold text-xl">{reports.report_title}</h3>
                   <p>{reports.report_message}</p>
               </div>
           </div>

@@ -184,3 +184,15 @@ overflow-y: scroll;
     margin-right: 0%;
     box-shadow: 0.1vw 0.1vw 0.9em rgb(102, 102, 5);
 }
+
+@media screen and (max-width: 600px) {
+    .home-card {
+        width: 90%;
+        margin-left: 2%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    /* .home-content{
+        font-size: small;
+    } */
+}

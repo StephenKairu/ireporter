@@ -73,7 +73,7 @@ function NewReport() {
   return (
     <div className='newreport-body flex-row'>
       <Sidebar/>
-      <div className='newreport-div ml-20 grid'>
+      <div className='newreport-div  grid'>
       <div className='flex place-self-center gap-4 my-7'>
       <h1 className='text-5xl py-9 text-yellow-400'>New Report</h1>
       {/* <figure class="rounded-lg p-8 md:p-0 dark:bg-slate-900"> */}

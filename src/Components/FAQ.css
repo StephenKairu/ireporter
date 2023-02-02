@@ -3,8 +3,8 @@
     padding: 1.2rem 2.2rem 2.2rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
-    margin-left: 35%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
   
 .container_faq h2 {
@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 .3rem;
-    margin-left: -6rem;
+    /* margin-left: -6rem; */
     border-radius: 0.1rem
 }
   
