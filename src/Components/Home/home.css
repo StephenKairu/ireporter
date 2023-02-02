@@ -1,3 +1,6 @@
+.search{
+    margin-top: 11%;
+}
 .home-card{
     margin-top: 2vh;
     display: grid; 
@@ -46,7 +49,7 @@ border-color: black;
 margin-top: 2vh;
 background-color: green; 
 border-radius: 0.2vw;
-margin-left: 10%;
+margin-left: 15%;
 border: 0.1vw solid #969696;
 /* border-radius: 0.2vw; */
 box-shadow: 0.1vh 0.1vh 0.7em black; 
@@ -192,7 +195,7 @@ overflow-y: scroll;
         /* display: flex;
         flex-direction: column; */
     }
-    /* .home-content{
-        font-size: small;
-    } */
+   .search{
+    margin-top: 35%;
+   }
 }

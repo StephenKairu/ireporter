@@ -45,13 +45,13 @@ function Home(){
     return(
         <Fragment>
             <Sidebar/>
-            <div className="ml-20">
-            <input className="w-96 text-green-800 font-bold" value={search} onChange={handleChange}
+            <div className=" search">
+            <input className="w-96 text-green-800 font-bold ml-17" value={search} onChange={handleChange}
         type="text"
         placeholder="Search"
       />
       <div>
-      <div className="home-card ml-20">
+      <div className="home-card">
 
 <div className="home-row"> 
   <div>
