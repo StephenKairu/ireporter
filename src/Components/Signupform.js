@@ -33,7 +33,7 @@ const Signupform = ({ toggleForm }) => {
     if (!e.target.username.value || !e.target.email.value || !e.target.password.value || !e.target.avatar.files[0] ) 
     // if (!e.target.avatar.files[0])
     {
-   toast.error("Please enter a valid username, email, and password.", {
+   toast.error("Please enter a valid username, email, password or profile picture.", {
      position: "top-center",
    });
    // return;
