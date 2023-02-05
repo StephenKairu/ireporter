@@ -45,8 +45,8 @@ function Home(){
     return(
         <Fragment>
             <Sidebar/>
-            <div className=" search">
-            <input className="w-96 text-green-800 font-bold ml-17" value={search} onChange={handleChange}
+            <div className=" search p-3">
+            <input className="w-full md:w-96 p-3 text-green-800 font-bold" value={search} onChange={handleChange}
         type="text"
         placeholder="Search"
       />

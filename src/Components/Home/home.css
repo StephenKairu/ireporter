@@ -188,6 +188,12 @@ overflow-y: scroll;
     box-shadow: 0.1vw 0.1vw 0.9em rgb(102, 102, 5);
 }
 
+@media screen and (max-width: 900px) {
+   
+   .search{
+    margin-top: 15%;
+   }
+}
 @media screen and (max-width: 600px) {
     .home-card {
         width: 90%;
@@ -198,4 +204,19 @@ overflow-y: scroll;
    .search{
     margin-top: 35%;
    }
+}
+
+@media screen and (max-width: 374px) {
+    .home-card {
+        width: 90%;
+        margin-left: 2%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+   .search{
+    margin-top: 50%;
+   }
+   /* .search input{
+    margin-top: 55%;
+   } */
 }

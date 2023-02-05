@@ -73,8 +73,8 @@ function NewReport() {
   return (
     <div className='newreport-body flex-row'>
       <Sidebar/>
-      <div className='newreport-div  grid'>
-      <div className='flex place-self-center gap-4 my-7'>
+      <div className='newreport-div justify-items-center grid'>
+      <div className='flex place-self-center gap-4 mt-16 mb-7 grid w-full'>
       <h1 className='text-5xl py-9 text-yellow-400'>New Report</h1>
       {/* <figure class="rounded-lg p-8 md:p-0 dark:bg-slate-900"> */}
             <div className="flex rounded-xl p-2 dark:bg-slate-900 pr-4">
@@ -82,7 +82,7 @@ function NewReport() {
   </div>
   {/* </figure> */}
   </div>
-<form className='w-96 place-self-center text-black' onSubmit ={(e)=> {handleSaveReport(e)}}>
+<form className='w-full p-2 place-self-center text-black' onSubmit ={(e)=> {handleSaveReport(e)}}>
 
       {/* <label htmlFor="user_id" class="block mb-1">
         <span class="block text-lg font-medium text-white text-center">User</span>

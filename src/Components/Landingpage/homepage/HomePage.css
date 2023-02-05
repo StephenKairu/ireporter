@@ -38,6 +38,7 @@
 
 @media screen and (max-width: 768px){
     .home-page{
+        margin-top: 14%;
         padding-top: 30px;
     }
     .home-image{
