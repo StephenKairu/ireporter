@@ -69,7 +69,7 @@ const Login = ({ toggleForm }) => {
         />
         <button className="btn bg-green-800 text-lg border-4 text-white py-1 hover:text-black">Login</button>
       </form>
-      <button className="link btn bg-green-800" onClick={() => toggleForm("register")}>
+      <button className="link btn bg-green-800 w-full" onClick={() => toggleForm("register")}>
         Don't have an account? Register here.
       </button>
 
