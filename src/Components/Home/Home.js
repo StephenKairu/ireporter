@@ -40,7 +40,8 @@ function Home(){
       handleSearching(search)
     }
     function handleSearching(search){
-        setData(info=>info.filter(info=>info.title.includes(search)))
+
+        setData(data.filter(data=>data.report_title.toLowerCase().includes(search.toLowerCase())))
       }
     return(
         <Fragment>
@@ -55,8 +56,8 @@ function Home(){
 
 <div className="home-row"> 
   <div>
-  {data.sort((a,b) => a.id < b.id ? 1 : -1).map((reports)=>( 
-          
+  {/* {data.sort((a,b) => a.id < b.id ? 1 : -1).map((reports)=>(  */}
+          {data.map((reports)=>( 
           <div key={reports.id} className='card-home' onClick={()=>{ setIdentity(reports.id)}}>
               {/* <div className='home-div'>
                   <img src={reports.report_image} className="w-30 h-24" alt="avatar"/>
