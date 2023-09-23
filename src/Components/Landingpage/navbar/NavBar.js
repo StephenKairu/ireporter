@@ -17,7 +17,7 @@ function NavBar() {
         <>
             <Navbar expand="lg" className="home bg-green-800 navbar navbar-expand-lg navbar-light fixed-top py-3">
                 <Container className="container px-4 px-lg-5">
-                    <Navbar.Brand className='brand' href="/home">
+                    <Navbar.Brand className='brand' href="/">
                     <img className="rounded-full h-24 w-24 mx-auto" src={logo} alt=""/>
                         <span className="navbar-brand text-wh text-white">Chiriku</span>
                     </Navbar.Brand>
